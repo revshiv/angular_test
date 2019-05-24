@@ -16,6 +16,8 @@ import { OwlDateTimeModule, OwlNativeDateTimeModule } from 'ng-pick-datetime';
 
 
 import { LoginComponent } from './login/login.component';
+import { PipeComponent } from './pipe/pipe.component';
+import { SafePipe } from './safe.pipe';
 
 
 
@@ -23,6 +25,8 @@ import { LoginComponent } from './login/login.component';
   declarations: [
     AppComponent,
     LoginComponent,
+    PipeComponent,
+    SafePipe,
   ],
   imports: [
     BrowserModule,
